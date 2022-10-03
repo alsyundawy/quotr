@@ -72,7 +72,7 @@ $quotr->set("accept", true);
 // 1 : DISPLAY IN BROWSER (DEFAULT)
 // 2 : FORCE DOWNLOAD
 // 3 : SAVE ON SERVER
- $quotr->outputHTML();
+$quotr->outputHTML();
 // $quotr->outputHTML(1);
 // $quotr->outputHTML(2, "QUOTATION.html");
 // $quotr->outputHTML(3, __DIR__ . DIRECTORY_SEPARATOR . "QUOTATION.html");
