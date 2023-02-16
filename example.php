@@ -61,7 +61,7 @@ $quotr->set("accept", true);
 
 // (C) OUTPUT
 // (C1) CHOOSE A TEMPLATE
- $quotr->template("apple");
+$quotr->template("apple");
 // $quotr->template("banana");
 // $quotr->template("blueberry");
 // $quotr->template("lime");
@@ -72,10 +72,12 @@ $quotr->set("accept", true);
 // 1 : DISPLAY IN BROWSER (DEFAULT)
 // 2 : FORCE DOWNLOAD
 // 3 : SAVE ON SERVER
+// 4 : DISPLAY IN BROWSER & SAVE AS PNG
 $quotr->outputHTML();
 // $quotr->outputHTML(1);
 // $quotr->outputHTML(2, "QUOTATION.html");
 // $quotr->outputHTML(3, __DIR__ . DIRECTORY_SEPARATOR . "QUOTATION.html");
+// $quotr->outputHTML(4, "QUOTATION.png");
 
 // (C3) OUTPUT IN PDF
 // 1 : DISPLAY IN BROWSER (DEFAULT)

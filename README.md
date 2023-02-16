@@ -1,5 +1,5 @@
 ## QUOTR
-Quotr is a free and open-source PHP quotation generator that is capable of creating HTML, PDF, and DOCX quotations. It is a simple and fuss-free package, giving developers a quick boost with their quotation generation needs.
+Quotr is a free and open-source PHP quotation generator that is capable of creating HTML, PDF, DOCX, and PNG quotations. It is a simple and fuss-free package, giving developers a quick boost with their quotation generation needs.
 <br><br>
 
 ## :camera: SCREENSHOTS & QUOTATION TEMPLATES
@@ -20,6 +20,7 @@ Quotr is a free and open-source PHP quotation generator that is capable of creat
 ## :link: DOCUMENTATION & CREDITS
 1) PDF output with MPDF - https://mpdf.github.io/
 2) DOCX output with PHPWORD - https://github.com/PHPOffice/PHPWord/
+3) PNG output with HTML2CANVAS - https://html2canvas.hertzen.com/
 
 Please visit https://code-boxx.com/quotr-php-quotation-generator for more!
 <br><br>
